@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li><a href="index.html">MySite.com</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()">
+            <i class="material-icons">menu</i></a></li>
+        </ul>
+    </nav>
+<header>
+    <h1>Home</h1>
+</header>
+<main>
+          
+</main>
+<footer>
+    <small>This is a footer</small>
+</footer>
+<script>
+    /* En funktion som lägger till/tar bort klassen "dropped" på .topnav när användaren trycker på meny-ikonen */
+    function navToggle() {
+    var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " dropped";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
