@@ -1,6 +1,16 @@
 /* ====== GLOBAL ====== */
 
-.wrapper {
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: $font-stack;
+    font-size: $base-font-size-h2;
+    background-color: $secondary-color;
+  }
+  
+  .wrapper {
     max-width: 960px;
     margin: 0 auto;
   }

@@ -303,6 +303,14 @@ template {
 
 /* ======  VARIABLES ===== */
 /* ====== GLOBAL ====== */
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "David Libre", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #000000; }
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto; }
