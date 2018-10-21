@@ -7,6 +7,7 @@
     <title>Nu Media</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -29,20 +30,20 @@
         <!-- Full-width images and caption text -->
         <div class="mySlides fade">
               <img src="img/slide/1.jpg" style="width:100%">
-              <div class="text">Caption Text</div>
+              <div class="text"><h2 style="font-size: 2vw;">Caption Text</h2></div>
         </div>
         <div class="mySlides fade">
               <img src="img/slide/2.jpg" style="width:100%">
-              <div class="text">Caption Two</div>
+              <div class="text"><h2 style="font-size: 2vw;">Caption Two</h2></div>
         </div>
         <div class="mySlides fade">
               <img src="img/slide/3.jpg" style="width:100%">
-              <div class="text">Caption Three</div>
+              <div class="text"><h2 style="font-size: 2vw;">Caption Three</h2></div>
         </div>
 </section>
 </header>
 <main>
-    <div class="wrapper div-padd">
+    <div class="wrapper">
         <section id="about">
         <h2>About Us</h2>
             <p>
@@ -69,21 +70,32 @@
                 </section>
     </div>    
 </main>
-<footer>
-    <div class="wrapper">
-        <p>Good things take time <i class="far fa-heart"></i></p>
-    </div>  
+<footer> <!-- CREATE A RESPONSIVE BLOCK -->
+    <div>
+        <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </div>
+
 </footer>
+
+<!-- NAVBAR Script-->
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon. -->
 <script>
     /* En funktion som lägger till/tar bort klassen "dropped" på .topnav när användaren trycker på meny-ikonen */
-    function navToggle() {
-    var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-        x.className += " dropped";
-        } else {
-            x.className = "topnav";
-        }
+    function navToggle() { 
+        var x = document.getElementById("myTopnav"); // variabel är x = i dokumentet, hämta elementet som heter "myTopnav".
+            if (x.className === "topnav") { // Om elementet "myTopnav" är lika med "topnav".
+                x.className += " dropped"; // ändra topnav till "dropped"
+            } else {  // annars
+                x.className = "topnav"; // öppna "topnav" som 
+            }
     }
+// END NAVBAR Script
 
 // SLIDESHOW Script 
     var slideIndex = 0;

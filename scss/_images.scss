@@ -7,6 +7,8 @@
     max-width: 100px;
     height: auto;
 }
+
+    
 /* ===== END Responsive Image ===== */
 
 /* ===== SLIDESHOW ===== */
@@ -16,6 +18,7 @@
 }
 img {
     vertical-align: middle;
+    
 }
 
 /* Slideshow container */
@@ -29,15 +32,9 @@ img {
 .text {
   color: $primary-color;
   font-size: $base-font-size-h1;
-  padding: 8px 12px;
   position: relative;
-  bottom: 100px;
-  width: 100%;
+  bottom: 7em;
   text-align: center;
-}
-
-.active {
-  background-color: #717171;
 }
 
 /* Fading animation */
@@ -59,9 +56,9 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .text {
       font-size: $base-font-size-h2
     }
-}
+} */
 /* ===== END SLIDESHOW ===== */
