@@ -304,11 +304,11 @@ template {
 /* ======  VARIABLES ===== */
 /* ===== NAVBAR =====  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  margin-top: 5em; }
+  font-family: "David Libre", Helvetica, Arial, sans-serif;
+  margin-top: 4em; }
 
 .topnav {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #333;
   position: fixed;
   width: 100%;
   top: 0;
@@ -329,8 +329,8 @@ body {
   display: none; }
 
 .topnav ul li a:hover {
-  background-color: #ddd;
-  color: #000; }
+  background-color: white;
+  color: #000000; }
 
 .topnav ul li:first-child a {
   display: inline-block; }
@@ -349,10 +349,10 @@ body {
   top: 0; }
 
 .material-icons {
-  font-size: 0.9em; }
+  font-size: 14px; }
 
 .active {
-  background-color: goldenrod; }
+  background-color: #4CAF50; }
 
 @media screen and (min-width: 600px) {
   #menu-icon {

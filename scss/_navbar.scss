@@ -1,12 +1,12 @@
 /* ===== NAVBAR =====  */
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    margin-top: 5em;
+    font-family: $font-stack;
+    margin-top: 4em;
   }
   
   .topnav {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: $tertiary-color;
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,15 +24,15 @@ body {
   }
   
   .topnav ul li a {
-    color: rgb(255, 255, 255);
+    color: $primary-color;
     padding: 1.5em;
     text-decoration: none;
     display: none;
   }
   
   .topnav ul li a:hover {
-    background-color: #ddd;
-    color: #000;
+    background-color: $primary-color;
+    color: $secondary-color;
   }
   
   .topnav ul li:first-child a {
@@ -56,11 +56,11 @@ body {
   }
   
   .material-icons {
-    font-size: 0.9em;
+    font-size: $base-font-size-h3;
   }
   
   .active {
-    background-color: goldenrod;
+    background-color: $quaternary-color;
   }
   
   @media screen and (min-width: 600px) {
