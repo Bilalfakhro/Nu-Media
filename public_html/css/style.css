@@ -368,7 +368,7 @@ body {
 /* ====== MAIN ====== */
 main section {
   padding: 4em 1em;
-  background-color: white; }
+  background-color: whitesmoke; }
   main section h2:first-of-type {
     margin-top: 0; }
 main :nth-of-type(even) {
