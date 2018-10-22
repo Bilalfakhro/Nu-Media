@@ -310,12 +310,12 @@ body {
   font-family: "David Libre", Helvetica, Arial, sans-serif;
   font-size: 16px; }
 
-.div-padd {
-  padding-top: 0; }
-
 .wrapper {
-  max-width: 960px;
-  margin: auto; }
+  max-width: 800px;
+  margin: 0 auto; }
+
+.div-padd {
+  padding-top: 5em; }
 
 /* ===== NAVBAR =====  */
 body {
@@ -396,7 +396,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 960px;
+  max-width: 800px;
   position: initial;
   margin-top: 0; }
 
@@ -432,6 +432,39 @@ img {
     }
 } */
 /* ===== END SLIDESHOW ===== */
+/* ===== STAFF ===== */
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "David Libre", Helvetica, Arial, sans-serif; }
+
+.title {
+  font-size: 20px; }
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000; }
+
+button:hover, a:hover {
+  opacity: 0.7; }
+
+/* ===== END STAFF ===== */
 /* ====== HEADER ====== */
 header {
   display: -webkit-box;
@@ -448,7 +481,9 @@ header {
 /* ====== MAIN ====== */
 main section {
   padding: 4em 1em;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+          box-shadow: rgba(0, 0, 0, 0.3); }
   main section h2:first-of-type {
     margin-top: 0; }
 main :nth-of-type(even) {

@@ -23,7 +23,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 960px;
+  max-width: 800px;
   position: initial;
   margin-top: 0;
 }
@@ -62,3 +62,41 @@ img {
     }
 } */
 /* ===== END SLIDESHOW ===== */
+
+/* ===== STAFF ===== */
+.card {
+  box-shadow: 0 4px 8px 0 $septenary-color;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: $font-stack;
+}
+
+.title {
+  font-size: $base-font-size-h1;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: $primary-color;
+  background-color: $secondary-color;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: $base-font-size-h3;
+}
+
+a {
+  text-decoration: none;
+  font-size: $base-font-size-h1;
+  color: $secondary-color;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/* ===== END STAFF ===== */
+
