@@ -33,7 +33,7 @@ img {
   color: $primary-color;
   font-size: $base-font-size-h1;
   position: relative;
-  bottom: 7em;
+  bottom: 75px;
   text-align: center;
 }
 
@@ -55,12 +55,6 @@ img {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-/*@media screen and (max-width: 600px) {
-  .text {
-      font-size: $base-font-size-h2
-    }
-} */
 /* ===== END SLIDESHOW ===== */
 
 /* ===== STAFF ===== */
@@ -100,3 +94,59 @@ button:hover, a:hover {
 }
 /* ===== END STAFF ===== */
 
+/* ===== GALLERY ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+/*   background-color: white; */
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+      width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+
+/* ===== END GALLERY ===== */
